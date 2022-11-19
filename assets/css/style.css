@@ -34,7 +34,6 @@ h1, footer {
                 color:#d9dcd6 ;
 }
         summary {
-            font-size: 20px;
             margin-right: 20px;
             padding-top: 15px;
             float: right;
@@ -44,7 +43,7 @@ h1, footer {
             margin-left: 25px;
             display: inline-block;
 }
-        a {
+        a, section {
             text-decoration: none;
             color: #ffffff;
 }
@@ -91,20 +90,18 @@ h1, footer {
             text-align: center;
 }
         section {
-            color: #ffffff;
             margin-bottom: 32px;
 }
         section img {
             max-width: 150px;
             margin: 10px auto;
-            display: block;
-            
+            display: block;         
 }
     footer {
         clear: both;
         padding: 30px;
         text-align: center;
 }
-        h4 {
+        summary, h4 {
             font-size: 20px;
 }
