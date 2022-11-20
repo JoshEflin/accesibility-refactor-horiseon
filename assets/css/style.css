@@ -1,11 +1,9 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 .banner {
     height: 800px;
-    width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
@@ -19,6 +17,9 @@ h1, footer {
 }
 h3, footer {
     text-align: center;
+}
+summary, h4 {
+    font-size: 20px;
 }
 a  {
     text-decoration: none;
@@ -35,7 +36,6 @@ a  {
 }
         h1 {
             font-size: 48px;
-
 }
             span {
                 color:#d9dcd6 ;
@@ -44,13 +44,10 @@ a  {
             margin-right: 20px;
             padding-top: 15px;
             float: right;
-            display: inline;
 }
         li {
             margin-left: 25px;
-
 }
-
     main {
         width: 75%;
         margin-left: 20px;
@@ -79,12 +76,10 @@ a  {
                 float: right;
 }
     aside {
-        height: 100%;
         width: 20%;
         padding: 20px;
         margin-right: 20px;
         float: right;
-        clear: both;
         background-color: #2589bd;
 }
         section {
@@ -98,7 +93,5 @@ a  {
     footer {
         clear: both;
         padding: 30px;
-}
-        summary, h4 {
-            font-size: 20px;
+        color: black
 }
