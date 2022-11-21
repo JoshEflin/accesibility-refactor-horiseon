@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 .banner {
     height: 800px;
     margin-bottom: 25px;
@@ -9,91 +10,117 @@
     background-position: center;
     background-image: url("../images/digital-marketing-meeting.jpg")
 }
-/* Share Properties  */
-h1, li, main {
+
+/* Shared Properties  */
+h1,
+li,
+main {
     display: inline-block;
 }
-h1, footer {
+
+h1,
+footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
-h3, footer {
+
+h3,
+footer {
     text-align: center;
 }
-summary, h4 {
+
+summary,
+h4 {
     font-size: 20px;
 }
-a  {
+
+a {
     text-decoration: none;
-    color: #ffffff; 
+    color: #ffffff;
 }
+
 body {
-        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-        background-color: #d9dcd6;
-        color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #d9dcd6;
+    color: #ffffff;
 }
+
 /* Properties specific to individual HTML elements */
-    header {
-        padding: 20px;
-        background-color: #2a607c;
+header {
+    padding: 20px;
+    background-color: #2a607c;
 }
-        h1 {
-            font-size: 48px;
+
+h1 {
+    font-size: 48px;
 }
-            span {
-                color:#d9dcd6 ;
+
+span {
+    color: #d9dcd6;
 }
-        summary {
-            margin-right: 20px;
-            padding-top: 15px;
-            float: right;
+
+nav {
+    margin-right: 20px;
+    padding-top: 15px;
+    float: right;
 }
-        li {
-            margin-left: 25px;
+
+li {
+    margin-left: 25px;
 }
-    main {
-        width: 75%;
-        margin-left: 20px;
+
+main {
+    width: 75%;
+    margin-left: 20px;
 }
-        h2 {
-            font-size: 36px;
-            margin-bottom: 20px;
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
-        content {
-            height: 300px;
-            padding: 50px;
-            margin-bottom: 20px;
-            background-color: #0072bb;
-            display: block;    
-            
+
+content {
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    background-color: #0072bb;
+    display: block;
+
 }
-        content img{
-            max-height: 200px;
+
+content img {
+    max-height: 200px;
 }
-            .align-left {
-                margin-right: 25px;
-                float: left;
+
+.align-left {
+    margin-right: 25px;
+    float: left;
 }
-            .align-right {
-                margin-left: 25px;
-                float: right;
+
+.align-right {
+    margin-left: 25px;
+    float: right;
 }
-    aside {
-        width: 20%;
-        padding: 20px;
-        margin-right: 20px;
-        float: right;
-        background-color: #2589bd;
+
+aside {
+    width: 20%;
+    padding: 20px;
+    margin-right: 20px;
+    float: right;
+    background-color: #2589bd;
 }
-        section {
-            margin-bottom: 32px;
+
+section {
+    margin-bottom: 32px;
 }
-        section img {
-            max-width: 150px;
-            margin: 10px auto;
-            display: block;         
+
+section img {
+    max-width: 150px;
+    margin: 10px auto;
+    display: block;
 }
-    footer {
-        clear: both;
-        padding: 30px;
-        color: black
+
+footer {
+    clear: both;
+    padding: 30px;
+    color: black
 }
