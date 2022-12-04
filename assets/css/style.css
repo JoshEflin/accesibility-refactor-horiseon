@@ -104,6 +104,7 @@ content img {
     float: right;
 }
 
+/* moves the <aside> tag to the side  */
 aside {
     width: 20%;
     padding: 20px;
@@ -121,6 +122,7 @@ section img {
     margin: 10px auto;
 }
 
+/* footer appears below both the aside and the main section */
 footer {
     clear: both;
     padding: 30px;
